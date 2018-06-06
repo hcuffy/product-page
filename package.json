@@ -1,0 +1,23 @@
+{
+  "name": "product-page",
+  "version": "1.0.0",
+  "description": "This is a product landing page for tires.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcuffy/product-page.git"
+  },
+  "author": "Henry Cuffy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcuffy/product-page/issues"
+  },
+  "homepage": "https://github.com/hcuffy/product-page#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
