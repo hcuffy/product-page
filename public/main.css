@@ -13,3 +13,18 @@ img {
 h3 {
   text-align: center;
 }
+
+#nav-bar {
+  position: fixed;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-height: 300px) {
+  .section {
+    height: 300px;
+  }
+}

@@ -23,6 +23,15 @@
  </header>
  <h3>About</h3>
  <hr>
+ <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+   <label for="email" id="email-label">Need more information? We'll email you.
+         </label>
+  <input id="email" class="form-control personal-data" type="email" placeholder="Enter your email so we can send you more information" required>
+
+  <input id="submit" type="submit" value="Submit">
+
+</form>
+
 <div id="about" class="section">
   <p>We are a California based company. We have been opened for over 200 years. We specialize in tires and wheels. You need it we can provide it.</p>
 </div>
@@ -32,14 +41,22 @@
 <h3>Here is a video from Continatal about the new counter tires</h3>
 <div id="service" class="section">
 
-  <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/QJhF8hhxPfo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+  <div> <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/QJhF8hhxPfo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 </div>
 <hr>
 <h3>Pricing</h3>
 <hr>
-<div id="pricing" class="section"></div>
+<div id="pricing" class="section flex-container">
+  <div>1</div>
+    <div>2</div>
+    <div>3</div>
+
+</div>
 
 </body>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
 </html>
