@@ -2,7 +2,7 @@
 
 Follow this README in order to properly run this application.
 
-Live App: In-progress
+Live App: https://freckle-chime.glitch.me/
 
 ## Prerequisites for Local Installation.
 
