@@ -7,15 +7,32 @@ img {
 }
 
 .section {
-  height: 500px;
+  height: 400px;
 }
 
 h3 {
   text-align: center;
 }
 
+.top-div {
+  margin-top: 60;
+}
+
 #nav-bar {
   position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+input[type="email"] {
+  width: 300px;
+  display: block;
+  margin: auto auto 10px auto;
+}
+
+#form {
+  text-align: center;
 }
 
 .flex-container {
@@ -23,8 +40,32 @@ h3 {
   flex-direction: row;
 }
 
+p {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+#service {
+  text-align: center;
+}
+
 @media only screen and (max-height: 300px) {
   .section {
     height: 300px;
   }
+}
+
+.products {
+  width: 350px;
+  height: 350px;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  margin: auto;
+  text-align: center;
+}
+
+ul {
+  text-align: left;
 }
