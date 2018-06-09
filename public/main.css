@@ -1,4 +1,15 @@
 body {
-  background-color: #392b5b;
-  margin-left: 60px;
+  background-color: #d5dce8;
+}
+
+img {
+  margin-left: 40px;
+}
+
+.section {
+  height: 500px;
+}
+
+h3 {
+  text-align: center;
 }
