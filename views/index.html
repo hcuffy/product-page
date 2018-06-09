@@ -23,10 +23,10 @@
  </header>
  <h3>About</h3>
  <hr>
- <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+ <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
    <label for="email" id="email-label">Need more information? We'll email you.
          </label>
-  <input id="email" class="form-control personal-data" type="email" placeholder="Enter your email so we can send you more information" required>
+  <input id="email" name="email" class="form-control personal-data" type="email" placeholder="Enter your email so we can send you more information." required>
 
   <input id="submit" type="submit" value="Submit">
 
@@ -47,9 +47,9 @@
 <h3>Pricing</h3>
 <hr>
 <div id="pricing" class="section flex-container">
-  <div>1</div>
-    <div>2</div>
-    <div>3</div>
+  <div class="products">1</div>
+    <div class="products">2</div>
+    <div class="products">3</div>
 
 </div>
 
